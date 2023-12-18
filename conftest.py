@@ -5,7 +5,7 @@ import signal
 
 # Дані вашого серверу, які будуть використовуватися для підключення по ssh до серверу.
 server_ip = '172.25.112.1'
-password = 'Rekcina1'
+password = ''
 username = 'torgm'
 
 

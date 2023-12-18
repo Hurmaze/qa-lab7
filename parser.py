@@ -20,4 +20,4 @@ def parse(input: str):
         }
         result.append(values)
 
-    return result
+    return result[:-2] # truncating summary lines

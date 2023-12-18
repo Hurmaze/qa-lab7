@@ -7,4 +7,4 @@ class TestSuite():
         assert not error
         results = parser.parse(output)
         for line in results:
-            assert float(line['Transfer']) > 1.5 and float(line['Bandwidth']) > 1
+            assert float(line['Transfer']) > 20 and float(line['Bandwidth']) > 1
